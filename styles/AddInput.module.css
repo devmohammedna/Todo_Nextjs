@@ -1,0 +1,32 @@
+.inputContainer {
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.329);
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  border: 1px solid #999;
+  padding: .9rem;
+  border-radius: .8rem;
+  width: 90%;
+}
+
+.input:focus {
+  outline: none;
+}
+.inputBox{
+display: flex;
+justify-content: space-between;
+}
+.addBtn {
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(53, 201, 157);
+  color: white;
+  font-weight: 900;
+}
